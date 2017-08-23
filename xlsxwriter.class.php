@@ -18,7 +18,7 @@ class XLSXWriter
 	protected $cell_styles = array();
 	protected $number_formats = array();
 
-    protected $allow_str_formulas = true;
+	protected $allow_str_formulas = true;
 
 	protected $current_sheet = '';
 
@@ -37,7 +37,7 @@ class XLSXWriter
 
 	public function setAuthor($author='') { $this->author=$author; }
 	public function setTempDir($tempdir='') { $this->tempdir=$tempdir; }
-    public function setAllowStrFormulas($allowed=true) { $this->allow_str_formulas=$allowed; }
+	public function setAllowStrFormulas($allowed=true) { $this->allow_str_formulas=$allowed; }
 
 	public function __destruct()
 	{
